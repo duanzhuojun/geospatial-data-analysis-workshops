@@ -1,0 +1,36 @@
+# Site settings
+title: Geospatial Data Analysis Workshops
+description: Hands-on workshops for thunderstorm studies, geospatial analysis, and data mining techniques
+author: Zhuojun Duan
+email: zhuoj.duan@gmail.com
+baseurl: "/geospatial-data-analysis-workshops"
+url: "https://duanzhuojun.github.io"
+
+# Build settings
+theme: jekyll-theme-cayman
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  workshops:
+    output: true
+    permalink: /workshops/:name/
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Workshops
+    url: /workshops/
+  - title: About
+    url: /about/
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
