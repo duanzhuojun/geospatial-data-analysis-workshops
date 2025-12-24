@@ -3,6 +3,13 @@ layout: default
 title: Home
 ---
 
+<nav style="background-color: #f4f4f4; padding: 1rem; margin-bottom: 2rem; border-radius: 5px;">
+  <a href="{{ site.baseurl }}/" style="margin-right: 20px; text-decoration: none; font-weight: bold;">🏠 Home</a>
+  <a href="{{ site.baseurl }}/setup.html" style="margin-right: 20px; text-decoration: none;">⚙️ Setup</a>
+  <a href="{{ site.baseurl }}/materials.html" style="margin-right: 20px; text-decoration: none;">📚 Materials</a>
+  <a href="{{ site.baseurl }}/about.html" style="margin-right: 20px; text-decoration: none;">ℹ️ About</a>
+</nav>
+
 # Geospatial Data Analysis Workshops
 
 Welcome to the Geospatial Data Analysis Workshops series! These workshops introduce participants to data mining and geospatial analysis techniques applied to thunderstorm and severe weather studies.

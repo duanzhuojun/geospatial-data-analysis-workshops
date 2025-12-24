@@ -3,6 +3,13 @@ layout: default
 title: Setup Guide
 ---
 
+<nav style="background-color: #f4f4f4; padding: 1rem; margin-bottom: 2rem; border-radius: 5px;">
+  <a href="{{ site.baseurl }}/" style="margin-right: 20px; text-decoration: none;">🏠 Home</a>
+  <a href="{{ site.baseurl }}/setup.html" style="margin-right: 20px; text-decoration: none; font-weight: bold;">⚙️ Setup</a>
+  <a href="{{ site.baseurl }}/materials.html" style="margin-right: 20px; text-decoration: none;">📚 Materials</a>
+  <a href="{{ site.baseurl }}/about.html" style="margin-right: 20px; text-decoration: none;">ℹ️ About</a>
+</nav>
+
 # Setup Guide
 
 Follow these instructions to prepare your environment for the workshops.
