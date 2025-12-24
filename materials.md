@@ -3,7 +3,19 @@ layout: default
 title: Workshop Materials
 ---
 
-<nav style="position: fixed; left: 0; top: 0; width: 200px; background-color: #2c3e50; padding: 1rem; height: 100vh; z-index: 1000;">
+<style>
+  nav a:hover { background-color: #34495e !important; }
+  .resource-box { 
+    background: #f0f8f0; 
+    padding: 1.2rem; 
+    margin: 1rem 0; 
+    border-radius: 5px; 
+    border-left: 4px solid #27ae60;
+  }
+  .resource-box h3 { margin-top: 0; color: #27ae60; }
+</style>
+
+<nav style="position: fixed; left: 0; top: 0; width: 200px; background-color: #2c3e50; padding: 1rem; height: 100vh; z-index: 1000; overflow-y: auto;">
   <div style="margin-bottom: 2rem;">
     <h3 style="color: white; margin-top: 0; font-size: 1rem;">Navigation</h3>
   </div>
@@ -17,7 +29,7 @@ title: Workshop Materials
   <a href="{{ site.baseurl }}/workshops/workshop-2.html" style="display: block; margin-bottom: 0.5rem; text-decoration: none; color: white; padding: 0.4rem 0.5rem; font-size: 0.9rem; border-radius: 3px;">Workshop 2</a>
   <a href="{{ site.baseurl }}/workshops/workshop-3.html" style="display: block; margin-bottom: 0.5rem; text-decoration: none; color: white; padding: 0.4rem 0.5rem; font-size: 0.9rem; border-radius: 3px;">Workshop 3</a>
 </nav>
-<div style="margin-left: 220px;">
+<div style="margin-left: 240px; padding: 2rem; max-width: 900px;">
 
 # Workshop Materials
 
@@ -106,4 +118,8 @@ Materials are regularly updated. Check back for:
 
 *Last updated: December 2025*
 
+---
+
 [← Back to Home](index.html)
+
+</div>

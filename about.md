@@ -3,7 +3,18 @@ layout: default
 title: About
 ---
 
-<nav style="position: fixed; left: 0; top: 0; width: 200px; background-color: #2c3e50; padding: 1rem; height: 100vh; z-index: 1000;">
+<style>
+  nav a:hover { background-color: #34495e !important; }
+  .highlight-box { 
+    background: #fff9e6; 
+    padding: 1.5rem; 
+    margin: 1.5rem 0; 
+    border-radius: 5px; 
+    border-left: 4px solid #f39c12;
+  }
+</style>
+
+<nav style="position: fixed; left: 0; top: 0; width: 200px; background-color: #2c3e50; padding: 1rem; height: 100vh; z-index: 1000; overflow-y: auto;">
   <div style="margin-bottom: 2rem;">
     <h3 style="color: white; margin-top: 0; font-size: 1rem;">Navigation</h3>
   </div>
@@ -17,7 +28,7 @@ title: About
   <a href="{{ site.baseurl }}/workshops/workshop-2.html" style="display: block; margin-bottom: 0.5rem; text-decoration: none; color: white; padding: 0.4rem 0.5rem; font-size: 0.9rem; border-radius: 3px;">Workshop 2</a>
   <a href="{{ site.baseurl }}/workshops/workshop-3.html" style="display: block; margin-bottom: 0.5rem; text-decoration: none; color: white; padding: 0.4rem 0.5rem; font-size: 0.9rem; border-radius: 3px;">Workshop 3</a>
 </nav>
-<div style="margin-left: 220px;">
+<div style="margin-left: 240px; padding: 2rem; max-width: 900px;">
 
 # About the Workshops
 
@@ -70,4 +81,8 @@ For questions, collaboration opportunities, or feedback:
 **Email**: [zhuoj.duan@gmail.com](mailto:zhuoj.duan@gmail.com)  
 **GitHub**: [github.com/duanzhuojun](https://github.com/duanzhuojun)
 
+---
+
 [← Back to Home](index.html)
+
+</div>

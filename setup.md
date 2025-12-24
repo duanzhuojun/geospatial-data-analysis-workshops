@@ -3,7 +3,19 @@ layout: default
 title: Setup Guide
 ---
 
-<nav style="position: fixed; left: 0; top: 0; width: 200px; background-color: #2c3e50; padding: 1rem; height: 100vh; z-index: 1000;">
+<style>
+  nav a:hover { background-color: #34495e !important; }
+  .info-box { 
+    background: #e8f4f8; 
+    padding: 1rem; 
+    margin: 1rem 0; 
+    border-radius: 5px; 
+    border-left: 4px solid #3498db;
+  }
+  code { background: #f4f4f4; padding: 0.2rem 0.4rem; border-radius: 3px; }
+</style>
+
+<nav style="position: fixed; left: 0; top: 0; width: 200px; background-color: #2c3e50; padding: 1rem; height: 100vh; z-index: 1000; overflow-y: auto;">
   <div style="margin-bottom: 2rem;">
     <h3 style="color: white; margin-top: 0; font-size: 1rem;">Navigation</h3>
   </div>
@@ -17,7 +29,7 @@ title: Setup Guide
   <a href="{{ site.baseurl }}/workshops/workshop-2.html" style="display: block; margin-bottom: 0.5rem; text-decoration: none; color: white; padding: 0.4rem 0.5rem; font-size: 0.9rem; border-radius: 3px;">Workshop 2</a>
   <a href="{{ site.baseurl }}/workshops/workshop-3.html" style="display: block; margin-bottom: 0.5rem; text-decoration: none; color: white; padding: 0.4rem 0.5rem; font-size: 0.9rem; border-radius: 3px;">Workshop 3</a>
 </nav>
-<div style="margin-left: 220px;">
+<div style="margin-left: 240px; padding: 2rem; max-width: 900px;">
 
 # Setup Guide
 
@@ -103,4 +115,8 @@ conda install -c conda-forge cartopy
 
 Contact us at [zhuoj.duan@gmail.com](mailto:zhuoj.duan@gmail.com) or open an issue on GitHub.
 
+---
+
 [← Back to Home](index.html)
+
+</div>

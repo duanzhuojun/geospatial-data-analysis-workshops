@@ -3,7 +3,19 @@ layout: default
 title: Home
 ---
 
-<nav style="position: fixed; left: 0; top: 0; width: 200px; background-color: #2c3e50; padding: 1rem; height: 100vh; z-index: 1000;">
+<style>
+  nav a:hover { background-color: #34495e !important; }
+  .workshop-card { 
+    background: #f8f9fa; 
+    padding: 1.5rem; 
+    margin-bottom: 1.5rem; 
+    border-radius: 8px; 
+    border-left: 4px solid #3498db;
+  }
+  .workshop-card h3 { margin-top: 0; color: #2c3e50; }
+</style>
+
+<nav style="position: fixed; left: 0; top: 0; width: 200px; background-color: #2c3e50; padding: 1rem; height: 100vh; z-index: 1000; overflow-y: auto;">
   <div style="margin-bottom: 2rem;">
     <h3 style="color: white; margin-top: 0; font-size: 1rem;">Navigation</h3>
   </div>
@@ -17,7 +29,7 @@ title: Home
   <a href="{{ site.baseurl }}/workshops/workshop-2.html" style="display: block; margin-bottom: 0.5rem; text-decoration: none; color: white; padding: 0.4rem 0.5rem; font-size: 0.9rem; border-radius: 3px;">Workshop 2</a>
   <a href="{{ site.baseurl }}/workshops/workshop-3.html" style="display: block; margin-bottom: 0.5rem; text-decoration: none; color: white; padding: 0.4rem 0.5rem; font-size: 0.9rem; border-radius: 3px;">Workshop 3</a>
 </nav>
-<div style="margin-left: 220px;">
+<div style="margin-left: 240px; padding: 2rem; max-width: 900px;">
 
 # Geospatial Data Analysis Workshops
 
@@ -41,14 +53,23 @@ Participants will:
 
 ## Available Workshops
 
-### [Workshop 1: Introduction to Geospatial Data Analysis](workshops/workshop-1.html)
-Get started with fundamental concepts in geospatial data handling, coordinate systems, and basic lightning data analysis.
+<div class="workshop-card">
+  <h3>📍 <a href="workshops/workshop-1.html" style="color: #2c3e50; text-decoration: none;">Workshop 1: Introduction to Geospatial Data Analysis</a></h3>
+  <p>Get started with fundamental concepts in geospatial data handling, coordinate systems, and basic lightning data analysis.</p>
+  <p><strong>Duration:</strong> 3 hours | <strong>Level:</strong> Beginner</p>
+</div>
 
-### [Workshop 2: Advanced Spatial Analysis](workshops/workshop-2.html)
-Deep dive into spatial clustering algorithms, kernel density estimation, and pattern detection in severe weather data.
+<div class="workshop-card">
+  <h3>🔬 <a href="workshops/workshop-2.html" style="color: #2c3e50; text-decoration: none;">Workshop 2: Advanced Spatial Analysis</a></h3>
+  <p>Deep dive into spatial clustering algorithms, kernel density estimation, and pattern detection in severe weather data.</p>
+  <p><strong>Duration:</strong> 3 hours | <strong>Level:</strong> Intermediate</p>
+</div>
 
-### [Workshop 3: Time Series and Forecasting](workshops/workshop-3.html)
-Learn techniques for analyzing temporal patterns in thunderstorm data and building predictive models.
+<div class="workshop-card">
+  <h3>📈 <a href="workshops/workshop-3.html" style="color: #2c3e50; text-decoration: none;">Workshop 3: Time Series and Forecasting</a></h3>
+  <p>Learn techniques for analyzing temporal patterns in thunderstorm data and building predictive models.</p>
+  <p><strong>Duration:</strong> 3 hours | <strong>Level:</strong> Advanced</p>
+</div>
 
 ## Prerequisites
 
@@ -69,3 +90,5 @@ For questions or more information, please contact: [zhuoj.duan@gmail.com](mailto
 ---
 
 *Last updated: December 2025*
+
+</div>

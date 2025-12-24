@@ -3,6 +3,23 @@ layout: default
 title: Workshop 2 - Advanced Spatial Analysis
 ---
 
+<style>
+  nav a:hover { background-color: #34495e !important; }
+  .schedule-section { 
+    background: #f8f9fa; 
+    padding: 1.2rem; 
+    margin: 1rem 0; 
+    border-radius: 5px; 
+    border-left: 4px solid #e74c3c;
+  }
+  .code-example { 
+    background: #f4f4f4; 
+    padding: 1rem; 
+    border-radius: 5px; 
+    margin: 1rem 0;
+  }
+</style>
+
 <nav style="position: fixed; left: 0; top: 0; width: 200px; background-color: #2c3e50; padding: 1rem; height: 100vh; z-index: 1000; overflow-y: auto;">
   <div style="margin-bottom: 2rem;">
     <h3 style="color: white; margin-top: 0; font-size: 1rem;">Navigation</h3>
@@ -17,7 +34,7 @@ title: Workshop 2 - Advanced Spatial Analysis
   <a href="{{ site.baseurl }}/workshops/workshop-2.html" style="display: block; margin-bottom: 0.5rem; text-decoration: none; color: white; font-weight: bold; padding: 0.4rem 0.5rem; font-size: 0.9rem; background-color: #34495e; border-radius: 3px;">Workshop 2</a>
   <a href="{{ site.baseurl }}/workshops/workshop-3.html" style="display: block; margin-bottom: 0.5rem; text-decoration: none; color: white; padding: 0.4rem 0.5rem; font-size: 0.9rem; border-radius: 3px;">Workshop 3</a>
 </nav>
-<div style="margin-left: 220px;">
+<div style="margin-left: 240px; padding: 2rem; max-width: 900px;">
 
 # Workshop 2: Advanced Spatial Analysis
 
@@ -263,4 +280,8 @@ ax.set_zlabel('Intensity (kA)')
 
 [Workshop 3: Time Series and Forecasting](workshop-3.html) - Temporal analysis and predictive modeling
 
+---
+
 [← Back to Workshops](../index.html)
+
+</div>
