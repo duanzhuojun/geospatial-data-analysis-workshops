@@ -71,11 +71,17 @@ title: About
   <a href="{{ site.baseurl }}/workshops/workshop-3.html">Workshop 3</a>
 </nav>
 
+<div class="section">
+
 # About the Workshops
 
 ## Overview
 
 The Geospatial Data Analysis Workshops series is designed to bridge the gap between theoretical knowledge and practical application in severe weather analysis. Through hands-on exercises and real-world datasets, participants learn cutting-edge techniques in geospatial data science.
+
+</div>
+
+<div class="section">
 
 ## Workshop Philosophy
 
@@ -86,6 +92,10 @@ Our approach emphasizes:
 - **Reproducible Research**: Learn best practices for transparent, shareable analysis
 - **Open Science**: All materials are freely available and open source
 
+</div>
+
+<div class="section">
+
 ## Who Should Attend
 
 These workshops are ideal for:
@@ -94,6 +104,10 @@ These workshops are ideal for:
 - Researchers working with geospatial or environmental data
 - Data scientists interested in weather and climate applications
 - Anyone curious about spatial data analysis and visualization
+
+</div>
+
+<div class="section">
 
 ## Instructor
 
@@ -104,9 +118,17 @@ These workshops are ideal for:
 - Experience with large-scale environmental datasets
 - Developer of open-source tools for meteorological data analysis
 
+</div>
+
+<div class="section">
+
 ## Workshop History
 
 These materials have been developed and refined through multiple workshop sessions, incorporating feedback from participants and advances in geospatial data science.
+
+</div>
+
+<div class="section">
 
 ## Acknowledgments
 
@@ -115,6 +137,10 @@ This workshop series builds upon excellent open-source tools and datasets from:
 - NOAA and other meteorological data providers
 - Contributors to GeoPandas, Cartopy, and related projects
 
+</div>
+
+<div class="section">
+
 ## Contact
 
 For questions, collaboration opportunities, or feedback:
@@ -122,8 +148,6 @@ For questions, collaboration opportunities, or feedback:
 **Email**: [zhuoj.duan@gmail.com](mailto:zhuoj.duan@gmail.com)  
 **GitHub**: [github.com/duanzhuojun](https://github.com/duanzhuojun)
 
----
-
-[← Back to Home](index.html)
+</div>
 
 </div>

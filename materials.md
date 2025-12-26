@@ -73,9 +73,15 @@ title: Workshop Materials
   <a href="{{ site.baseurl }}/workshops/workshop-3.html">Workshop 3</a>
 </nav>
 
+<div class="section">
+
 # Workshop Materials
 
 All workshop materials are available for download. Please ensure you have completed the [Setup Guide](setup.html) before proceeding.
+
+</div>
+
+<div class="section">
 
 ## Datasets
 
@@ -96,6 +102,10 @@ All workshop materials are available for download. Please ensure you have comple
 - **Format**: NetCDF, CSV
 - **Size**: ~100 MB
 - **Download**: [environmental-data.zip](#) *(coming soon)*
+
+</div>
+
+<div class="section">
 
 ## Jupyter Notebooks
 
@@ -118,6 +128,10 @@ Interactive notebooks for each workshop:
 
 **Download All Notebooks**: [notebooks.zip](#) *(coming soon)*
 
+</div>
+
+<div class="section">
+
 ## Code Examples
 
 Standalone Python scripts for reference:
@@ -128,6 +142,10 @@ Standalone Python scripts for reference:
 
 **Download All Scripts**: [scripts.zip](#) *(coming soon)*
 
+</div>
+
+<div class="section">
+
 ## Slides
 
 Presentation slides in PDF format:
@@ -135,6 +153,10 @@ Presentation slides in PDF format:
 - [Workshop 1 Slides](slides/workshop1-slides.pdf) *(coming soon)*
 - [Workshop 2 Slides](slides/workshop2-slides.pdf) *(coming soon)*
 - [Workshop 3 Slides](slides/workshop3-slides.pdf) *(coming soon)*
+
+</div>
+
+<div class="section">
 
 ## Additional Resources
 
@@ -151,6 +173,10 @@ Publicly available datasets for further exploration:
 - [GeoPandas Cheat Sheet](https://github.com/geopandas/geopandas/raw/main/doc/source/_static/geopandas_cheat_sheet.pdf)
 - [Coordinate Reference Systems Guide](https://www.earthdatascience.org/courses/earth-analytics/spatial-data-r/intro-to-coordinate-reference-systems/)
 
+</div>
+
+<div class="section">
+
 ## Updates
 
 Materials are regularly updated. Check back for:
@@ -160,8 +186,6 @@ Materials are regularly updated. Check back for:
 
 *Last updated: December 2025*
 
----
-
-[← Back to Home](index.html)
+</div>
 
 </div>

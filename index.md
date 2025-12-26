@@ -80,7 +80,7 @@ title: Home
 <div class="content-wrapper">
 
 <nav class="nav-links">
-  <a href="{{ site.baseurl }}/">🏠 Home</a>
+  <a href="{{ site.baseurl }}/" style="background: #3498db; color: white; border-color: #3498db;">🏠 Home</a>
   <a href="{{ site.baseurl }}/setup.html">⚙️ Setup</a>
   <a href="{{ site.baseurl }}/materials.html">📚 Materials</a>
   <a href="{{ site.baseurl }}/about.html">ℹ️ About</a>

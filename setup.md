@@ -73,9 +73,15 @@ title: Setup Guide
   <a href="{{ site.baseurl }}/workshops/workshop-3.html">Workshop 3</a>
 </nav>
 
+<div class="section">
+
 # Setup Guide
 
 Follow these instructions to prepare your environment for the workshops.
+
+</div>
+
+<div class="section">
 
 ## Required Software
 
@@ -104,6 +110,10 @@ Choose one:
 - **Jupyter Lab**: `conda install -c conda-forge jupyterlab`
 - **PyCharm Community Edition**: [Download here](https://www.jetbrains.com/pycharm/)
 
+</div>
+
+<div class="section">
+
 ## Data Downloads
 
 Workshop datasets will be provided during each session. To prepare:
@@ -118,6 +128,10 @@ Workshop datasets will be provided during each session. To prepare:
    - [Lightning data sample](https://example.com/lightning-sample.csv)
    - [Boundary files](https://example.com/boundaries.zip)
 
+</div>
+
+<div class="section">
+
 ## Verification
 
 Test your installation:
@@ -130,6 +144,10 @@ import cartopy.crs as ccrs
 
 print("All packages installed successfully!")
 ```
+
+</div>
+
+<div class="section">
 
 ## Troubleshooting
 
@@ -147,18 +165,24 @@ conda install -c conda-forge gdal
 conda install -c conda-forge cartopy
 ```
 
+</div>
+
+<div class="section">
+
 ## Additional Resources
 
 - [GeoPandas Documentation](https://geopandas.org/)
 - [Cartopy Tutorial](https://scitools.org.uk/cartopy/docs/latest/)
 - [Python for Data Science](https://jakevdp.github.io/PythonDataScienceHandbook/)
 
+</div>
+
+<div class="section">
+
 ## Need Help?
 
 Contact us at [zhuoj.duan@gmail.com](mailto:zhuoj.duan@gmail.com) or open an issue on GitHub.
 
----
-
-[← Back to Home](index.html)
+</div>
 
 </div>
