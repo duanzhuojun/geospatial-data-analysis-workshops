@@ -4,7 +4,40 @@ title: Setup Guide
 ---
 
 <style>
-  nav a:hover { background-color: #34495e !important; }
+  .content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+    background: #f6f8fa;
+    border-radius: 8px;
+  }
+  
+  .nav-links a {
+    padding: 0.6rem 1.2rem;
+    background: white;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #24292e;
+    font-weight: 500;
+    transition: all 0.2s;
+  }
+  
+  .nav-links a:hover {
+    background: #3498db;
+    color: white;
+    text-decoration: none;
+    border-color: #3498db;
+  }
+  
   .info-box { 
     background: #e8f4f8; 
     padding: 1rem; 
@@ -12,24 +45,33 @@ title: Setup Guide
     border-radius: 5px; 
     border-left: 4px solid #3498db;
   }
+  
   code { background: #f4f4f4; padding: 0.2rem 0.4rem; border-radius: 3px; }
+  
+  .section {
+    margin-bottom: 3rem;
+  }
+  
+  .section h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
 </style>
 
-<nav style="position: fixed; left: 0; top: 0; width: 200px; background-color: #2c3e50; padding: 1rem; height: 100vh; z-index: 1000; overflow-y: auto;">
-  <div style="margin-bottom: 2rem;">
-    <h3 style="color: white; margin-top: 0; font-size: 1rem;">Navigation</h3>
-  </div>
-  <a href="{{ site.baseurl }}/" style="display: block; margin-bottom: 0.8rem; text-decoration: none; color: white; padding: 0.5rem; border-radius: 3px;">🏠 Home</a>
-  <a href="{{ site.baseurl }}/setup.html" style="display: block; margin-bottom: 0.8rem; text-decoration: none; color: white; font-weight: bold; padding: 0.5rem; background-color: #34495e; border-radius: 3px;">⚙️ Setup</a>
-  <a href="{{ site.baseurl }}/materials.html" style="display: block; margin-bottom: 0.8rem; text-decoration: none; color: white; padding: 0.5rem; border-radius: 3px;">📚 Materials</a>
-  <a href="{{ site.baseurl }}/about.html" style="display: block; margin-bottom: 0.8rem; text-decoration: none; color: white; padding: 0.5rem; border-radius: 3px;">ℹ️ About</a>
-  <hr style="border-color: #34495e; margin: 1.5rem 0;">
-  <div style="color: #95a5a6; font-size: 0.85rem; margin-bottom: 0.5rem;">Workshops:</div>
-  <a href="{{ site.baseurl }}/workshops/workshop-1.html" style="display: block; margin-bottom: 0.5rem; text-decoration: none; color: white; padding: 0.4rem 0.5rem; font-size: 0.9rem; border-radius: 3px;">Workshop 1</a>
-  <a href="{{ site.baseurl }}/workshops/workshop-2.html" style="display: block; margin-bottom: 0.5rem; text-decoration: none; color: white; padding: 0.4rem 0.5rem; font-size: 0.9rem; border-radius: 3px;">Workshop 2</a>
-  <a href="{{ site.baseurl }}/workshops/workshop-3.html" style="display: block; margin-bottom: 0.5rem; text-decoration: none; color: white; padding: 0.4rem 0.5rem; font-size: 0.9rem; border-radius: 3px;">Workshop 3</a>
+<div class="content-wrapper">
+
+<nav class="nav-links">
+  <a href="{{ site.baseurl }}/">🏠 Home</a>
+  <a href="{{ site.baseurl }}/setup.html" style="background: #3498db; color: white; border-color: #3498db;">⚙️ Setup</a>
+  <a href="{{ site.baseurl }}/materials.html">📚 Materials</a>
+  <a href="{{ site.baseurl }}/about.html">ℹ️ About</a>
+  <span style="flex-grow: 1;"></span>
+  <a href="{{ site.baseurl }}/workshops/workshop-1.html">Workshop 1</a>
+  <a href="{{ site.baseurl }}/workshops/workshop-2.html">Workshop 2</a>
+  <a href="{{ site.baseurl }}/workshops/workshop-3.html">Workshop 3</a>
 </nav>
-<div style="margin-left: 240px; padding: 2rem; max-width: 900px;">
 
 # Setup Guide
 
