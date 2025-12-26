@@ -78,15 +78,15 @@ title: Home
   <a href="{{ site.baseurl }}/workshops/workshop-3.html">Workshop 3</a>
 </nav>
 
-<div class="section">
+
 
 ## Welcome
 
 Welcome to the Geospatial Data Analysis Workshops series! These workshops introduce participants to data mining and geospatial analysis techniques applied to thunderstorm and severe weather studies.
 
-</div>
 
-<div class="section">
+
+
 
 ## About the Workshops
 
@@ -96,9 +96,9 @@ Our workshops focus on:
 - **Data Mining**: Extracting insights from large-scale environmental datasets
 - **Reproducible Workflows**: Using modern tools and best practices for data science
 
-</div>
 
-<div class="section">
+
+
 
 ## Learning Objectives
 
@@ -108,9 +108,9 @@ Participants will:
 - Explore spatial and temporal patterns in lightning and weather events
 - Gain hands-on experience with reproducible data analysis workflows
 
-</div>
 
-<div class="section">
+
+
 
 ## Available Workshops
 
@@ -134,7 +134,7 @@ Participants will:
 
 </div>
 
-<div class="section">
+
 
 ## Prerequisites
 
@@ -142,9 +142,6 @@ Participants will:
 - Familiarity with data analysis concepts
 - Laptop with required software installed (see Setup Guide)
 
-</div>
-
-<div class="section">
 
 ## Getting Started
 
@@ -152,14 +149,8 @@ Participants will:
 2. Download the [workshop materials](materials.html)
 3. Join our community discussion forum
 
-</div>
-
-<div class="section">
 
 ## Contact
 
 For questions or more information, please contact: [zhuoj.duan@gmail.com](mailto:zhuoj.duan@gmail.com)
 
-</div>
-
-</div>
