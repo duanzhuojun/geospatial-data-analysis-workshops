@@ -38,23 +38,19 @@ title: Home
     border-color: #3498db;
   }
   
-  .workshop-card { 
+  .schedule-section { 
     background: #f8f9fa; 
-    padding: 1.5rem; 
-    margin-bottom: 1.5rem; 
-    border-radius: 8px; 
+    padding: 1.2rem; 
+    margin: 1rem 0; 
+    border-radius: 5px; 
     border-left: 4px solid #3498db;
-    transition: transform 0.2s, box-shadow 0.2s;
   }
   
-  .workshop-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  }
-  
-  .workshop-card h3 { 
-    margin-top: 0; 
-    color: #2c3e50; 
+  .code-example { 
+    background: #f4f4f4; 
+    padding: 1rem; 
+    border-radius: 5px; 
+    margin: 1rem 0;
   }
   
   .section {
@@ -67,25 +63,17 @@ title: Home
     padding-bottom: 0.5rem;
     margin-bottom: 1.5rem;
   }
-  
-  ul {
-    line-height: 1.8;
-  }
-  
-  strong {
-    color: #2c3e50;
-  }
 </style>
 
 <div class="content-wrapper">
 
 <nav class="nav-links">
-  <a href="{{ site.baseurl }}/" style="background: #3498db; color: white; border-color: #3498db;">🏠 Home</a>
+  <a href="{{ site.baseurl }}/">🏠 Home</a>
   <a href="{{ site.baseurl }}/setup.html">⚙️ Setup</a>
   <a href="{{ site.baseurl }}/materials.html">📚 Materials</a>
   <a href="{{ site.baseurl }}/about.html">ℹ️ About</a>
   <span style="flex-grow: 1;"></span>
-  <a href="{{ site.baseurl }}/workshops/workshop-1.html">Workshop 1</a>
+  <a href="{{ site.baseurl }}/workshops/workshop-1.html" style="background: #3498db; color: white; border-color: #3498db;">Workshop 1</a>
   <a href="{{ site.baseurl }}/workshops/workshop-2.html">Workshop 2</a>
   <a href="{{ site.baseurl }}/workshops/workshop-3.html">Workshop 3</a>
 </nav>
