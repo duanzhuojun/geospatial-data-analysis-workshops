@@ -59,6 +59,7 @@ title: Home
   
   .section {
     margin-bottom: 3rem;
+    padding: 1.5rem 0;
   }
   
   .section h2 {
@@ -66,6 +67,11 @@ title: Home
     border-bottom: 2px solid #3498db;
     padding-bottom: 0.5rem;
     margin-bottom: 1.5rem;
+    margin-top: 0;
+  }
+  
+  .section p, .section ul {
+    margin-bottom: 1rem;
   }
   
   ul {
