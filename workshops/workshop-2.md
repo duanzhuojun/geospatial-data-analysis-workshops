@@ -65,7 +65,7 @@ title: Workshop 2 - Finding Patterns in Thunderstorm datasets
   }
 </style>
 
-<div class="content-wrapper">
+<div class="content-wrapper" markdown="1">
 
 <nav class="nav-links">
   <a href="{{ site.baseurl }}/">🏠 Home</a>
@@ -77,7 +77,6 @@ title: Workshop 2 - Finding Patterns in Thunderstorm datasets
   <a href="{{ site.baseurl }}/workshops/workshop-2.html" style="background: #3498db; color: white; border-color: #3498db;">Workshop 2</a>
   <a href="{{ site.baseurl }}/workshops/workshop-3.html">Workshop 3</a>
 </nav>
-</div>
 
 # Workshop 2: Finding Patterns in Thunderstorm datasets
 
@@ -329,5 +328,7 @@ ax.set_zlabel('Intensity (kA)')
 ---
 
 [← Back to Workshops](../index.html)
+
+</div>
 
 

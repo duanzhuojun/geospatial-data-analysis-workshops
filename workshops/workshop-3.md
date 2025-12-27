@@ -65,7 +65,7 @@ title: Workshop 3 - Visualization
   }
 </style>
 
-<div class="content-wrapper">
+<div class="content-wrapper" markdown="1">
 
 <nav class="nav-links">
   <a href="{{ site.baseurl }}/">🏠 Home</a>
@@ -77,7 +77,6 @@ title: Workshop 3 - Visualization
   <a href="{{ site.baseurl }}/workshops/workshop-2.html">Workshop 2</a>
   <a href="{{ site.baseurl }}/workshops/workshop-3.html" style="background: #3498db; color: white; border-color: #3498db;">Workshop 3</a>
 </nav>
-</div>
 
 # Workshop 3: Visualization
 
@@ -471,5 +470,7 @@ Continue exploring these techniques with your own datasets and applications!
 ---
 
 [← Back to Workshops](../index.html)
+
+</div>
 
 
