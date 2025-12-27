@@ -104,10 +104,10 @@ Welcome to the Geospatial Data Analysis Workshops series! These workshops introd
 
 
 Our workshops focus on:
-- **Thunderstorm and Lightning Data Analysis**: Working with real-world meteorological datasets
-- **Geospatial Analysis**: Spatial clustering, pattern recognition, and mapping techniques
-- **Data Mining**: Extracting insights from large-scale environmental datasets
-- **Reproducible Workflows**: Using modern tools and best practices for data science
+  - **Thunderstorm and Lightning Data Analysis**: Working with real-world meteorological datasets
+  - **Geospatial Analysis**: Spatial clustering, pattern recognition, and mapping techniques
+  - **Data Mining**: Extracting insights from large-scale environmental datasets
+  - **Reproducible Workflows**: Using modern tools and best practices for data science
 
 </div>
 
@@ -116,10 +116,10 @@ Our workshops focus on:
 <h2>Learning Objectives</h2>
 
 Participants will:
-- Understand the structure of geospatial and meteorological datasets
-- Apply data mining techniques to thunderstorm-related data
-- Explore spatial and temporal patterns in lightning and weather events
-- Gain hands-on experience with reproducible data analysis workflows
+  - Understand the structure of geospatial and meteorological datasets
+  - Apply data mining techniques to thunderstorm-related data
+  - Explore spatial and temporal patterns in lightning and weather events
+  - Gain hands-on experience with reproducible data analysis workflows
 
 </div>
 
@@ -151,21 +151,17 @@ Participants will:
 
 <h2>Enrollment Details</h2>
 
-- Basic knowledge of Python, Java, C, or R is recommended
-- Please bring a laptop; if you are unable to do so, contact us in advance
-- Open to students from all majors
-- You may enroll in one, two, or all three workshops
+  - Basic knowledge of Python, Java, C, or R is recommended
+  - Please bring a laptop; if you are unable to do so, contact us in advance
+  - Open to students from all majors
+  - You may enroll in one, two, or all three workshops
+
+<div style="text-align: center;">
+  <a href="https://docs.google.com/forms/d/1M06EsLJa7SuCjiA_yNynPSFug94BY_q-A-C73cp0YdI/edit" style="display: inline-block; margin-top: 1.5rem; padding: 0.8rem 1.5rem; background: #3498db; color: white; text-decoration: none; border-radius: 6px; font-weight: 500; transition: background 0.2s;" onmouseover="this.style.background='#2980b9'" onmouseout="this.style.background='#3498db'">📝 Enroll Now</a>
 </div>
 
-<div class="section" markdown="1">
-
-<h2>Getting Started</h2>
-
-1. Review the [Setup Guide](setup.html) to prepare your environment
-2. Download the [workshop materials](materials.html)
-3. Join our community discussion forum
-
 </div>
+
 
 <div class="section" markdown="1">
 
