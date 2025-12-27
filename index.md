@@ -83,7 +83,7 @@ title: Home
   }
 </style>
 
-<div class="content-wrapper">
+<div class="content-wrapper" markdown="1">
 
 <nav class="nav-links">
   <a href="{{ site.baseurl }}/" style="background: #3498db; color: white; border-color: #3498db;">🏠 Home</a>
@@ -149,12 +149,12 @@ Participants will:
 
 <div class="section">
 
-<h2>Prerequisites</h2>
+<h2>Enrollment Details</h2>
 
-- Basic knowledge of Python or R
-- Familiarity with data analysis concepts
-- Laptop with required software installed (see Setup Guide)
-
+- Basic knowledge of Python, Java, C, or R is recommended
+- Please bring a laptop; if you are unable to do so, contact us in advance
+- Open to students from all majors
+- You may enroll in one, two, or all three workshops
 </div>
 
 <div class="section">
@@ -171,7 +171,7 @@ Participants will:
 
 <h2>Contact</h2>
 
-For questions or more information, please contact: [zhuoj.duan@gmail.com](mailto:zhuoj.duan@gmail.com)
+For questions or more information, please contact: [gs1@jmu.edu]
 
 </div>
 
