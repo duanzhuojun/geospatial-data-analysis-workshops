@@ -96,7 +96,7 @@ title: Home
   <a href="{{ site.baseurl }}/workshops/workshop-3.html">Workshop 3</a>
 </nav>
 
-<div class="section">
+<div class="section" markdown="1">
 
 <h2>Welcome</h2>
 
@@ -111,7 +111,7 @@ Our workshops focus on:
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 <h2>Learning Objectives</h2>
 
@@ -123,7 +123,7 @@ Participants will:
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 <h2>Available Workshops</h2>
 
@@ -147,7 +147,7 @@ Participants will:
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 <h2>Enrollment Details</h2>
 
@@ -157,7 +157,7 @@ Participants will:
 - You may enroll in one, two, or all three workshops
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 <h2>Getting Started</h2>
 
@@ -167,7 +167,7 @@ Participants will:
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 <h2>Contact</h2>
 
