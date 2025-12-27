@@ -98,7 +98,7 @@ title: Home
 
 <div class="section">
 
-## Welcome
+<h2>Welcome</h2>
 
 Welcome to the Geospatial Data Analysis Workshops series! These workshops introduce participants to data mining and geospatial analysis techniques applied to thunderstorm and severe weather studies.
 
@@ -106,7 +106,7 @@ Welcome to the Geospatial Data Analysis Workshops series! These workshops introd
 
 <div class="section">
 
-## About the Workshops
+<h2>About the Workshops</h2>
 
 Our workshops focus on:
 - **Thunderstorm and Lightning Data Analysis**: Working with real-world meteorological datasets
@@ -118,7 +118,7 @@ Our workshops focus on:
 
 <div class="section">
 
-## Learning Objectives
+<h2>Learning Objectives</h2>
 
 Participants will:
 - Understand the structure of geospatial and meteorological datasets
@@ -130,7 +130,7 @@ Participants will:
 
 <div class="section">
 
-## Available Workshops
+<h2>Available Workshops</h2>
 
 <div class="workshop-card">
   <h3>📍 <a href="workshops/workshop-1.html" style="color: #2c3e50; text-decoration: none;">Workshop 1: Introduction to Geospatial Data Analysis</a></h3>
@@ -154,7 +154,7 @@ Participants will:
 
 <div class="section">
 
-## Prerequisites
+<h2>Prerequisites</h2>
 
 - Basic knowledge of Python or R
 - Familiarity with data analysis concepts
@@ -164,7 +164,7 @@ Participants will:
 
 <div class="section">
 
-## Getting Started
+<h2>Getting Started</h2>
 
 1. Review the [Setup Guide](setup.html) to prepare your environment
 2. Download the [workshop materials](materials.html)
@@ -174,7 +174,7 @@ Participants will:
 
 <div class="section">
 
-## Contact
+<h2>Contact</h2>
 
 For questions or more information, please contact: [zhuoj.duan@gmail.com](mailto:zhuoj.duan@gmail.com)
 
