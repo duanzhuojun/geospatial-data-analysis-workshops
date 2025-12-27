@@ -77,6 +77,7 @@ title: Workshop 1 - Getting Started with Thunderstorm datasets & Jupyter Noteboo
   <a href="{{ site.baseurl }}/workshops/workshop-2.html">Workshop 2</a>
   <a href="{{ site.baseurl }}/workshops/workshop-3.html">Workshop 3</a>
 </nav>
+</div>
 
 # Workshop 1: Getting Started with Thunderstorm datasets & Jupyter Notebook
 
@@ -250,4 +251,4 @@ plt.show()
 
 [← Back to Workshops](../index.html)
 
-</div>
+
