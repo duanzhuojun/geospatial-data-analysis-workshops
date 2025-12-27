@@ -5,19 +5,25 @@ title: Home
 
 <style>
   .content-wrapper {
-    max-width: 1200px;
+    display: flex;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 2rem;
+    gap: 2rem;
   }
   
   .nav-links {
     display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin-bottom: 3rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 200px;
+    flex-shrink: 0;
     padding: 1.5rem;
     background: #f6f8fa;
     border-radius: 8px;
+    height: fit-content;
+    position: sticky;
+    top: 2rem;
   }
   
   .nav-links a {
@@ -29,6 +35,7 @@ title: Home
     color: #24292e;
     font-weight: 500;
     transition: all 0.2s;
+    text-align: center;
   }
   
   .nav-links a:hover {
@@ -36,6 +43,15 @@ title: Home
     color: white;
     text-decoration: none;
     border-color: #3498db;
+  }
+  
+  .nav-links .spacer {
+    height: 1rem;
+  }
+  
+  .main-content {
+    flex: 1;
+    min-width: 0;
   }
   
   .workshop-card { 
@@ -83,18 +99,20 @@ title: Home
   }
 </style>
 
-<div class="content-wrapper" markdown="1">
+<div class="content-wrapper">
 
 <nav class="nav-links">
   <a href="{{ site.baseurl }}/" style="background: #3498db; color: white; border-color: #3498db;">🏠 Home</a>
   <a href="{{ site.baseurl }}/setup.html">⚙️ Setup</a>
   <a href="{{ site.baseurl }}/materials.html">📚 Materials</a>
   <a href="{{ site.baseurl }}/about.html">ℹ️ About</a>
-  <span style="flex-grow: 1;"></span>
+  <div class="spacer"></div>
   <a href="{{ site.baseurl }}/workshops/workshop-1.html">Workshop 1</a>
   <a href="{{ site.baseurl }}/workshops/workshop-2.html">Workshop 2</a>
   <a href="{{ site.baseurl }}/workshops/workshop-3.html">Workshop 3</a>
 </nav>
+
+<div class="main-content" markdown="1">
 
 <div class="section" markdown="1">
 
@@ -168,6 +186,8 @@ Participants will:
 <h2>Contact</h2>
 
 For questions or more information, please contact: [gs1@jmu.edu]
+
+</div>
 
 </div>
 
