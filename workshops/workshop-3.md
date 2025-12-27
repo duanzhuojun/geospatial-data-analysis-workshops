@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Workshop 3 - Time Series and Forecasting
+title: Workshop 3 - Visualization
 ---
 
 <style>
@@ -78,14 +78,17 @@ title: Workshop 3 - Time Series and Forecasting
   <a href="{{ site.baseurl }}/workshops/workshop-3.html" style="background: #3498db; color: white; border-color: #3498db;">Workshop 3</a>
 </nav>
 
-# Workshop 3: Time Series and Forecasting
+# Workshop 3: Visualization
 
 ## Duration
 3 hours
 
+## Level
+Intermediate
+
 ## Overview
 
-This workshop focuses on temporal analysis of thunderstorm data and introduces forecasting techniques. You'll learn to analyze time series patterns, perform spatiotemporal analysis, and build predictive models for lightning activity.
+Create visualizations that help you understand the results and communicate Thunderstorm patterns clearly and effectively.
 
 ## Learning Objectives
 

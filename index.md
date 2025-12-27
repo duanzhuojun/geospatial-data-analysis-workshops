@@ -102,11 +102,6 @@ title: Home
 
 Welcome to the Geospatial Data Analysis Workshops series! These workshops introduce participants to data mining and geospatial analysis techniques applied to thunderstorm and severe weather studies.
 
-</div>
-
-<div class="section">
-
-<h2>About the Workshops</h2>
 
 Our workshops focus on:
 - **Thunderstorm and Lightning Data Analysis**: Working with real-world meteorological datasets
@@ -133,21 +128,21 @@ Participants will:
 <h2>Available Workshops</h2>
 
 <div class="workshop-card">
-  <h3>📍 <a href="workshops/workshop-1.html" style="color: #2c3e50; text-decoration: none;">Workshop 1: Introduction to Geospatial Data Analysis</a></h3>
-  <p>Get started with fundamental concepts in geospatial data handling, coordinate systems, and basic lightning data analysis.</p>
-  <p><strong>Duration:</strong> 3 hours | <strong>Level:</strong> Beginner</p>
+  <h3>📍 <a href="workshops/workshop-1.html" style="color: #2c3e50; text-decoration: none;">Workshop 1: Getting Started with Thunderstorm datasets & Jupyter Notebook</a></h3>
+  <p>Set up your environment using Jupyter Notebook and explore real-world meteorological datasets to see what storm data looks like in practice.</p>
+  <p><strong>Duration:</strong> 1 hours | <strong>Level:</strong> Beginner</p>
 </div>
 
 <div class="workshop-card">
-  <h3>🔬 <a href="workshops/workshop-2.html" style="color: #2c3e50; text-decoration: none;">Workshop 2: Advanced Spatial Analysis</a></h3>
-  <p>Deep dive into spatial clustering algorithms, kernel density estimation, and pattern detection in severe weather data.</p>
-  <p><strong>Duration:</strong> 3 hours | <strong>Level:</strong> Intermediate</p>
+  <h3>🔬 <a href="workshops/workshop-2.html" style="color: #2c3e50; text-decoration: none;">Workshop 2: Finding Patterns in Thunderstorm datasets</a></h3>
+  <p>Use pandas to clean and organize data, then apply spatiotemporal clustering techniques to uncover patterns in thunderstorm activity.</p>
+  <p><strong>Duration:</strong> 1 hours | <strong>Level:</strong> Intermediate</p>
 </div>
 
 <div class="workshop-card">
-  <h3>📈 <a href="workshops/workshop-3.html" style="color: #2c3e50; text-decoration: none;">Workshop 3: Time Series and Forecasting</a></h3>
-  <p>Learn techniques for analyzing temporal patterns in thunderstorm data and building predictive models.</p>
-  <p><strong>Duration:</strong> 3 hours | <strong>Level:</strong> Advanced</p>
+  <h3>📈 <a href="workshops/workshop-3.html" style="color: #2c3e50; text-decoration: none;">Workshop 3: Visualization</a></h3>
+  <p>Create visualizations that help you understand the results and communicate Thunderstorm patterns clearly and effectively.</p>
+  <p><strong>Duration:</strong> 1 hours | <strong>Level:</strong> Intermediate</p>
 </div>
 
 </div>

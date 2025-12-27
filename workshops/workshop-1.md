@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Workshop 1 - Introduction to Geospatial Data Analysis
+title: Workshop 1 - Getting Started with Thunderstorm datasets & Jupyter Notebook
 ---
 
 <style>
@@ -78,14 +78,17 @@ title: Workshop 1 - Introduction to Geospatial Data Analysis
   <a href="{{ site.baseurl }}/workshops/workshop-3.html">Workshop 3</a>
 </nav>
 
-# Workshop 1: Introduction to Geospatial Data Analysis
+# Workshop 1: Getting Started with Thunderstorm datasets & Jupyter Notebook
 
 ## Duration
 3 hours
 
+## Level
+Beginner
+
 ## Overview
 
-This workshop introduces fundamental concepts in geospatial data analysis with a focus on thunderstorm and lightning data. You'll learn to work with coordinate systems, read spatial data formats, and create basic visualizations.
+Set up your environment using Jupyter Notebook and explore real-world meteorological datasets to see what storm data looks like in practice.
 
 ## Learning Objectives
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Workshop 2 - Advanced Spatial Analysis
+title: Workshop 2 - Finding Patterns in Thunderstorm datasets
 ---
 
 <style>
@@ -78,14 +78,17 @@ title: Workshop 2 - Advanced Spatial Analysis
   <a href="{{ site.baseurl }}/workshops/workshop-3.html">Workshop 3</a>
 </nav>
 
-# Workshop 2: Advanced Spatial Analysis
+# Workshop 2: Finding Patterns in Thunderstorm datasets
 
 ## Duration
 3 hours
 
+## Level
+Intermediate
+
 ## Overview
 
-Building on Workshop 1, this session explores advanced spatial analysis techniques for identifying patterns in thunderstorm data. You'll learn clustering algorithms, kernel density estimation, and spatial statistics.
+Use pandas to clean and organize data, then apply spatiotemporal clustering techniques to uncover patterns in thunderstorm activity.
 
 ## Learning Objectives
 
