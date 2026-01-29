@@ -120,12 +120,17 @@ title: Home
 
 Welcome to the Geospatial Data Analysis Workshops series! These workshops introduce participants to data mining and geospatial analysis techniques applied to thunderstorm and severe weather studies.
 
-
 Our workshops focus on:
-  - **Thunderstorm and Lightning Data Analysis**: Working with real-world meteorological datasets
-  - **Geospatial Analysis**: Spatial clustering, pattern recognition, and mapping techniques
-  - **Data Mining**: Extracting insights from large-scale environmental datasets
-  - **Reproducible Workflows**: Using modern tools and best practices for data science
+
+<ul>
+  <li><strong>Thunderstorm and Lightning Data Analysis</strong>: Working with real-world meteorological datasets</li>
+  <li><strong>Geospatial Analysis</strong>: Spatial clustering, pattern recognition, and mapping techniques</li>
+  <li><strong>Data Mining</strong>: Extracting insights from large-scale environmental datasets</li>
+  <li><strong>Reproducible Workflows</strong>: Using modern tools and best practices for data science</li>
+</ul>
+
+<h2>Acknowledgement</h2>
+<p>The datasets used in this workshop series are from the NSF-funded research project: <em>RUI: Characterization of Aerosol Effects within an Urban Lightning Climatology across a North American Climatic Gradient</em> (Award Abstract #2104299), supported by the National Science Foundation (NSF), USA.</p>
 
 </div>
 
@@ -134,10 +139,12 @@ Our workshops focus on:
 <h2>Learning Objectives</h2>
 
 Participants will:
-  - Understand the structure of geospatial and meteorological datasets
-  - Apply data mining techniques to thunderstorm-related data
-  - Explore spatial and temporal patterns in lightning and weather events
-  - Gain hands-on experience with reproducible data analysis workflows
+<ul>
+  <li>Understand the structure of geospatial and meteorological datasets</li>
+  <li>Apply data mining techniques to thunderstorm-related data</li>
+  <li>Explore spatial and temporal patterns in lightning and weather events</li>
+  <li>Gain hands-on experience with reproducible data analysis workflows</li>
+</ul>
 
 </div>
 
@@ -169,10 +176,12 @@ Participants will:
 
 <h2>Enrollment Details</h2>
 
-  - Basic knowledge of Python, Java, C, or R is recommended
-  - Please bring a laptop; if you are unable to do so, contact us in advance
-  - Open to students from all majors
-  - You may enroll in one, two, or all three workshops
+<ul>
+  <li>Basic knowledge of Python, Java, C, or R is recommended</li>
+  <li>Please bring a laptop; if you are unable to do so, contact us in advance</li>
+  <li>Open to students from all majors</li>
+  <li>You may enroll in one, two, or all three workshops</li>
+</ul>
 
 <div style="text-align: center;">
   <a href="https://docs.google.com/forms/d/1M06EsLJa7SuCjiA_yNynPSFug94BY_q-A-C73cp0YdI/edit" style="display: inline-block; margin-top: 1.5rem; padding: 0.8rem 1.5rem; background: #3498db; color: white; text-decoration: none; border-radius: 6px; font-weight: 500; transition: background 0.2s;" onmouseover="this.style.background='#2980b9'" onmouseout="this.style.background='#3498db'">📝 Enroll Now</a>
