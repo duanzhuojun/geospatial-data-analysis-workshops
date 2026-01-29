@@ -94,35 +94,55 @@ title: Workshop 1 - Getting Started with Thunderstorm datasets & Jupyter Noteboo
   <a href="{{ site.baseurl }}/workshops/workshop-3.html">Workshop 3</a>
 </nav>
 
-<div class="main-content" markdown="1">
+<div class="main-content">
 
-# Workshop 1: Getting Started with Thunderstorm datasets & Jupyter Notebook
+<div class="section">
 
-## Duration
-1 hours
+<h1>Workshop 1: Getting Started with Thunderstorm Datasets & Jupyter Notebook</h1>
 
-## Level
-Beginner
+<p><strong>Duration:</strong> 1 hour | <strong>Level:</strong> Beginner</p>
 
-## Overview
+<h2>Overview</h2>
 
-Set up your environment using Jupyter Notebook and explore real-world meteorological datasets to see what storm data looks like in practice.
+<p>Set up your environment using Jupyter Notebook and explore real-world meteorological datasets to see what storm data looks like in practice.</p>
 
-## Learning Objectives
+</div>
 
-By the end of this workshop, you will be able to:
+<div class="section">
 
-1. Understand coordinate reference systems (CRS) and map projections
-2. Read and write common geospatial data formats (Shapefiles, GeoJSON, GeoPackage)
-3. Perform basic spatial operations (buffering, intersections, unions)
-4. Create static and interactive maps with lightning data
-5. Calculate basic spatial statistics
+<h2>Learning Objectives</h2>
 
-## Instructions
+<p>By the end of this workshop, you will be able to:</p>
+
+<ul>
+  <li>Understand the basics of Jupyter Notebook environment</li>
+  <li>Work with Python libraries for data analysis (pandas, numpy)</li>
+  <li>Load and explore real-world lightning and thunderstorm datasets</li>
+  <li>Perform basic data manipulation and cleaning operations</li>
+  <li>Create simple visualizations of meteorological data</li>
+</ul>
+
+</div>
+
+<div class="section">
+
+<h2>Prerequisites</h2>
+
+<ul>
+  <li>Basic Python knowledge</li>
+  <li>Completed <a href="../setup.html">Setup Guide</a></li>
+  <li>Downloaded <a href="../materials.html">Workshop Materials</a></li>
+</ul>
+
+</div>
+
+<div class="section">
+
+<h2>Instructions</h2>
 
 <div class="schedule-section">
 
-### Preparation
+<h3>Preparation</h3>
 
 <ol>
   <li>Set up your computer with Python interpreter and VS Code installed</li>
@@ -133,10 +153,10 @@ By the end of this workshop, you will be able to:
 
 <div class="schedule-section">
 
-### Jupyter Introduction
+<h3>Jupyter Introduction</h3>
 
 <ol>
-  <li>Download the first notebook file: <a href="workshops/workshop1-code/intro-jupyter.ipynb">intro-jupyter.ipynb</a></li>
+  <li>Download the first notebook file: <a href="workshop1-code/intro-jupyter.ipynb" download><code>intro-jupyter.ipynb</code></a></li>
   <li>Read through the provided notes and run the code cells</li>
   <li>Complete the exercises at the end of the notebook</li>
 </ol>
@@ -145,11 +165,18 @@ By the end of this workshop, you will be able to:
 
 <div class="schedule-section">
 
-### Jupyter Activity: Work with a Real-World Lightning Dataset
+<h3>Jupyter Activity: Work with a Real-World Lightning Dataset</h3>
 
 <ol>
-  <li>Download the starter notebook file and dataset: <a href="workshops/workshop1-code/jupyter_exercise.ipynb">jupyter_exercise.ipynb</a>, <a href="workshops/workshop1-code/Salt_Lake_2020.csv">Salt_Lake_2020.csv</a></li>
+  <li>Download the starter notebook file: <a href="workshop1-code/jupyter_exercise.ipynb" download><code>jupyter_exercise.ipynb</code></a></li>
+  <li>Download the dataset: <a href="workshop1-code/Salt_Lake_2020.csv" download><code>Salt_Lake_2020.csv</code></a></li>
   <li>Use Python to load, explore, and process the dataset in a Jupyter Notebook</li>
 </ol>
+
+</div>
+
+</div>
+
+</div>
 
 </div>
